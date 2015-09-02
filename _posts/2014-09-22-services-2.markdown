@@ -1,10 +1,13 @@
 ---
 layout: default
-img: dog.png
+img: sd-05_mono.png
 category: Services
-title: 3D Device Mockups<br>by PSDCovers
+title: <span class="inline-block">教えて？ </span><span class="inline-block">あなたの</span><span class="inline-block">本のこと&#x2500;&#x2500;</span><br><small class="font-sans"><span class="inline-block">でんでん</span><span class="inline-block">ランディングページ</span></small>
 description: |
 ---
-  Turn your 2D designs into high quality, 3D
-  product shots in seconds using free Photoshop actions by [PSDCovers](http://www.psdcovers.com/)! Visit
-  their website to download some of their awesome, free photoshop actions!
+
+<p class="font-serif">本の魅力を伝える専用ページを作ってみませんか？</span> でんでんランディングページは、簡易ブログサービス <a href="https://www.tumblr.com/">Tumblr</a> のテーマとして開発されており、予め用意された項目を埋めるだけで、あなただけのウェブサイトを作ることができます。印象的なキャッチフレーズや、豊富な部品を組み合わせて本の世界観を表現してみましょう。</p>
+
+<p class="font-serif">2014年のリリース以来、個人出版者を中心に利用が広まり、1年の内に120を越える本の紹介ページが誕生しました。</p>
+
+<p class="text-center m-t-md m-b-lg"><a class="btn btn-secondary btn-lg" href="http://lp.denshochan.com/">もっと詳しく</a></p>

@@ -1,8 +1,15 @@
 ---
 layout: default
-img: ipad.png
+img: sd-07_mono.png
 category: Services
-title: Death to the Stock Photo:<br>Special Thanks
+title: <span class="inline-block">楽しい！</span><span class="inline-block">かんたん！</span><span class="inline-block">高品質！</span><br><small class="font-sans"><span class="inline-block">でんでん</span><span class="inline-block">コンバーター</span></small>
 description: |
 ---
-  A special thanks to [Death to the Stock Photo](http://join.deathtothestockphoto.com/) for providing the photographs that you see in this template.  Visit their website to become a member!
+
+<p class="font-serif">電子出版物の標準フォーマット<span class="inline-block">EPUB 3</span>を作ることのできるウェブアプリケーションです。簡略化された親しみやすい記法で、仕様に準拠した高品質の電子書籍を、誰でも手軽に作ることができます。</p>
+
+<p class="font-serif">2013年のリリースから現在に至るまで、個人出版者を中心とする多くの方に使われ続けています。</p>
+
+<p class="font-serif">2013年12月には日本電子出版協会が主催する『電子出版アワード2013』において、大賞とエキサイティングツール賞を受賞しました。企業の製品が多くノミネートされる中、個人の作品による大賞受賞は初の出来事でした。</p>
+
+<p class="text-center m-t-md m-b-lg"><a class="btn btn-secondary btn-lg" href="http://conv.denshochan.com/">もっと詳しく</a></p>

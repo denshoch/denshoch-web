@@ -1,0 +1,25 @@
+/* font classes */
+
+.font-serif {
+  font-family : YuMincho, '游明朝', serif;
+}
+.font-sans {
+  font-family : YuGothic, '游ゴシック', sans-serif;
+}
+
+/* helper classes */
+.inline-block {
+  display: inline-block;
+}
+
+cite {
+  font-style: normal;
+}
+
+#profile .list-inline > li {
+  padding-right: 0px;
+  padding-left: 3px; }
+#profile a .fa-stack {
+  color: #c8c8c8; }
+#profile a .fa-stack:hover, #bio a .fa-stack:focus {
+    color: #428bca; }

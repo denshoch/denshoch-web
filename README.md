@@ -1,3 +1,26 @@
+電書ちゃんねる公式ウェブサイト
+========================
+
+Build
+------
+
+```sh
+jekyll build
+```
+
+```sh
+jekyll build --watch
+```
+
+```sh
+jekyll serve
+```
+
+
+
+
+-----------
+
 # Landing Page Jekyll theme
 
 Jekyll theme based on [landing-page bootstrap theme ](http://startbootstrap.com/templates/landing-page/)

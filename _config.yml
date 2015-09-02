@@ -2,14 +2,11 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: Your Awesome Site
-email: your-email@domain.com
-author: Your Name
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description."
+url: http://denshochan.com
+title: 電書ちゃんねる
+email: info@denshochan.com
+author: Hiroshi Takase a.k.a. lost_and_found
+description: "あなたの思いを届けたい。電子出版を応援する任意団体「電書ちゃんねる」の公式ウェブサイト。"
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -25,8 +22,8 @@ permalink: pretty
 
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
-    url: 
+    url: https://twitter.com/denshochan
+  - title: facebook
+    url: https://www.facebook.com/denshochannel
+  - title: google-plus
+    url: https://plus.google.com/106072295374144683246

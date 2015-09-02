@@ -1,8 +1,15 @@
 ---
 layout: default
-img: phones.png
+img: sd-06_mono.png
 category: Services
-title: Google Web Fonts and<br>Font Awesome Icons
+title: <span class="inline-block">新しい時代の</span><span class="inline-block">新しい本と文化</span><br><small class="font-sans"><span class="inline-block">自由に</span><span class="inline-block">楽しく</span></small>
 description: |
 ---
-This template features the 'Lato' font, part of the [Google Web Font library](http://www.google.com/fonts), as well as [icons from Font Awesome](http://fontawesome.io).
+
+<p class="font-serif">電子出版の最大の魅力は<strong class="font-sans">自由</strong>であることです。オープンな標準技術をベースにした電子書籍は出版を自由で身近なものにしてくれました。表現や出版は自由と切り離すことができません。</p>
+
+<p class="font-serif">自由な出版を求める電書ちゃんねるの活動は2009年に電子書籍の標準フォーマットEPUBと出会ったことで始まります。「電子書籍元年」と呼ばれた2010年を経て、新しい電子書籍市場が日本の中で立ち上がる光景を見届けて来ました。</p>
+
+<p class="font-serif">代表がこの時期を回想するエッセイ <cite class="font-sans">僕の「電子書籍元年」</cite> は月刊群雛2015年03月号に収録されています。</p>
+
+<p class="text-center m-t-md m-b-lg"><a class="btn btn-secondary btn-lg" href="http://gunsu201503.tumblr.com/">もっと詳しく</a></p>
