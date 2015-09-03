@@ -16,10 +16,51 @@ cite {
   font-style: normal;
 }
 
+
+@font-face {
+	font-family: 'denshoch';
+	src:url('../fonts/denshoch.woff?-7fxpso') format('woff'),
+		url('../fonts/denshoch.svg?-7fxpso#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'denshoch';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 0.7;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-face:before {
+	content: "\e001";
+}
+.icon-silhouette:before {
+	content: "\e000";
+}
+
+.intro-logo {
+  margin: 0;
+  font-size: 8rem;
+  line-height: 0.6;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
 #profile .list-inline > li {
   padding-right: 0px;
   padding-left: 3px; }
 #profile a .fa-stack {
   color: #c8c8c8; }
 #profile a .fa-stack:hover, #bio a .fa-stack:focus {
-    color: #428bca; }
+    color: #fd4991; }
+
+footer a {
+  color: #fd4991;
+}
