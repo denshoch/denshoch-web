@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+<!--
+
+                   `.--::://///:-.                          
+               `-://++++++////++++//-:::-.                  
+              ./++////////////////+++++++/:.                
+        `.`-::://////////////////+o///////++.               
+     -/+++//++///////////////////+++//////:.  `             
+   `+++/++/////////////////////////++/++/.     `            
+   /+///+/////////////////////////++o+-./:    .:.           
+  ./////////////////////////++++++/:-+:  /+:/+ooo:          
+  -///+++///+//+////++++++++++++:/-  -o+/+ooooooos`         
+ `-//+//////+/+/+++++oooo+++++o+/+++oooysooooooooo+`        
+  -/+///////oo/.:ooooo/:+ooosoooo+oossoo-+ysoooooooo-       
+  `:+:+//+++oo/``.:/+oo/``./--:+shy/:oso-`sm+oooooooo/      
+   -+/+++osoo//.`   ``..` -` .oddmmy:/oo+`ym:.+oooooooo.    
+   `o+oooosoo/..-.`      `` .o/ddMMo:+ooosdho  -oooooooo.   
+    +osooooo+o...``         ``.::oyo-+ooodds.`   /oooooo+`  
+    -ssoosso-/o/odhs:         ` ...--:oosdm/      :oooooo:  
+    .sooooyo/::.:hdNm/           `.. .sosh-        :osoooo  
+    `ooooosss-```.-syo-`          ``.oooo:`         /soooo` 
+     +oooooshd+.   :.--.   ``    ``-:o:+--.`        `ooooo` 
+     :ooooooohho.   `..``     ` `````.:``````        +oooo  
+     -:+ooosss//`...``..`    `-:+:. ``o      ``      :ooo/  
+     -+oooooso+.   `-:-:--://++oo// `+h- `` ``       /ooo`  
+    `:oooooo//o-    ..--++ooosooo/ssyyys````.       `ooo/   
+    `+ooooo/ `:o.  `..../s+oossooo/+/oyho.` ``      /oso    
+    .+ooooo`   ./`   `---/--:+yso/    .+h+  `.     .o++`    
+    -ooooo/           `       ohs       :do.``.    /+.      
+    -soooo`         `         :hy        /md+``.   +`       
+     /+oo+         `        `` hm:      `-sdm+  ```.        
+     -`/o+        `        `` `odh`      `-+ddy-```.-`      
+      ` -+.      `        `` ``.ymo       ``hdddyo//:`      
+          `     `       `-```` `./o`      . smddmddy+`      
+                       `/h/`  `````.      .+hs+--.`         
+               :/:    `  `-.````...+-   ` .-`               
+              .hhhoy:               .o+oyss                 
+              /ysyhh.                yhhyhy`                
+              +ysyho                 +ssyyy`                
+              -syys.                 :yyhy/                 
+                ``                    .:-`                  
+                                                 
+        だからソースコード覗かないでって言ってるでしょ、このスケベ！
+
+-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{site.url}}{{ page.url }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:image" content="{{ site.url }}//img/tw_140x90_y.png">
+    <meta property="og:description" content="{% if page.subTitle %}{{ page.subTitle }}{% else %}{{ site.description }}{% endif %}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ site.url }}/img/tw_140x90_y.png">
+    <meta name="twitter:site" content="@denshochan">
+    <meta name="twitter:creator" content="@denshochan"> 
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Cardo:400,400italic' rel='stylesheet' type='text/css'>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/css/cover.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="{{ site.url }}/img/favicon.ico">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    {% include google_analytics.html %}
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="inner cover">
+          	<p class="denshochan"><i class="icon-silhouette"></i></p>
+            <h1 class="cover-heading">2015.9.20</h1>
+            <p class="lead">non omnis moriar; multaque pars mei vitabit libitinam</p>
+
+            <p class="lead"><a href="https://twitter.com/share" class="twitter-share-button" data-via="denshochan" data-size="large" data-hashtags="電書ちゃんねる">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
+ 
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
