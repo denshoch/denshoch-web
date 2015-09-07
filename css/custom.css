@@ -1,10 +1,10 @@
 /* font classes */
 
 .font-serif {
-  font-family : YuMincho, '游明朝', serif;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 .font-sans {
-  font-family : YuGothic, '游ゴシック', sans-serif;
+  font-family:Avenir , "Open Sans" , "Helvetica Neue" , Helvetica , Arial , Verdana , Roboto , "游ゴシック" , "Yu Gothic" , "游ゴシック体" , "YuGothic" , "ヒラギノ角ゴ Pro W3" , "Hiragino Kaku Gothic Pro" , "Meiryo UI" , "メイリオ" , Meiryo , "ＭＳ Ｐゴシック" , "MS PGothic" , sans-serif;
 }
 
 /* helper classes */
@@ -63,4 +63,16 @@ cite {
 
 footer a {
   color: #fd4991;
+}
+
+@media(max-width:1199px) {
+  .intro-logo {
+    font-size: 8rem;
+  }
+}
+
+@media(max-width:767px) {
+  .intro-logo {
+    font-size: 6rem;
+  }
 }
