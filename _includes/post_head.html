@@ -9,13 +9,13 @@
     <!-- OGP -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:url" content="{% if page.slug %}{{ site.url }}/{{ page.slug }}/{% else %}{{ site.url }}{% endif %}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:image" content="{{ site.url }}/img/tw_140x90.png">
+    <meta property="og:image" content="{% if page.img %}{{ site.url }}/img/{{ page.img }}{% else %}{{ site.url }}/img/tw_140x90.png{% endif %}">
     <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/img/tw_140x90.png">
+    <meta name="twitter:image" content="{% if page.img %}{{ site.url }}/img/{{ page.img }}{% else %}{{ site.url }}/img/tw_140x90.png{% endif %}">
     <meta name="twitter:site" content="@denshochan">
     <meta name="twitter:creator" content="@denshochan"> 
 
@@ -26,8 +26,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="/css/landing-page.css" rel="stylesheet">
     <link href="/css/custom.css" rel="stylesheet">
+    <link href="/css/post.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">

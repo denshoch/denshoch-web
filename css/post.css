@@ -1,0 +1,27 @@
+.post{
+
+}
+.post-header {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.post-heading {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: bold;
+  font-family: font-family: "ヒラギノ角ゴ StdN","Hiragino Kaku Gothic StdN", YuGothic, '游ゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+}
+
+.post-body {
+  margin-bottom: 0.55rem;
+  text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+}
+
+.post-body p.text-right {
+  text-align: right;
+}
