@@ -4,8 +4,6 @@
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 .font-sans {
-  font-family: YuGothic, '游ゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro','メイリオ', Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
-}
 
 /* helper classes */
 .inline-block {
@@ -63,4 +61,16 @@ cite {
 
 footer a {
   color: #fd4991;
+}
+
+@media(max-width:1199px) {
+  .intro-logo {
+    font-size: 8rem;
+  }
+}
+
+@media(max-width:767px) {
+  .intro-logo {
+    font-size: 6rem;
+  }
 }
