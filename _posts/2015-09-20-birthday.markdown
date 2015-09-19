@@ -46,7 +46,7 @@ EPUBの仕様は完成しましたが、日本人むけの制作ツールがあ�
 
 
 <p class="m-t-md text-right">二〇一五年九月二〇日　電書ちゃんねる</p>
-<!--
+
 <div class="media font-sans m-t-lg">
   <div style="margin-right: 10px;" class="pull-left"><img style="width: 64px;" src="/img/denshochan_20101213_face.png" alt="電書ちゃん" class="media-object img-circle"></div>
   <div class="media-body">
@@ -68,5 +68,5 @@ EPUBの仕様は完成しましたが、日本人むけの制作ツールがあ�
 <p class="text-center font-sans m-t-lg">
   <a class="btn btn-lg btn-success" href="/dame/">Here We Go!!</a>
 </p>
--->
+
 
