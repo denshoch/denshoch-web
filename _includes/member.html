@@ -1,0 +1,27 @@
+ <div id="profile">
+   <div class="card-block">
+     <div class="panel-body">
+       <ul class="media-list">
+        {% for member in page.member  %}
+         <li class="media card card-block">
+           <div style="margin-right: 20px;" class="pull-left"><a href="http://twitter.com/{{ member.twitter }}" title="Twitter"><img style="width: 64px;" src="{{member.img}}" alt="" class="media-object img-circle"></a></div>
+
+           <div class="media-body">
+           <div class="media-heading font-sans" style="border-bottom: 2px solid">
+             <b>{{ member.name }}</b>
+           </div>
+           <div class="description">
+             <p class="font-serif">{{ member.description }}</p>
+            
+           </div>
+
+           <ul class="list-inline">
+             <li><a href="http://twitter.com/{{ member.twitter }}" title="Twitter"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li> 
+           </ul>
+           </div>
+         </li>
+        {% endfor %}
+       </ul>
+     </div>
+   </div>
+ </div>

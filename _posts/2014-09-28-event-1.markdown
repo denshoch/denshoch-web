@@ -1,0 +1,56 @@
+---
+layout: event
+img: null
+category: events
+title: でんでんビアバッシュ!! vol.1
+subtitle: 〜 単なる飲み会 〜
+start_at: 2015-10-28 19:00
+location: 都内某所
+location_url: foo
+map: hoge
+price: 4,000円くらい
+description: ほにほに
+member:
+  - name: ろす
+    description: 主催者。自由で楽しい電子出版を応援する「電書ちゃんねる」管理人。平素よりツイッターではご迷惑おかけしております。
+    img: http://static.tumblr.com/b8da4375d735432e52414cce134f3094/9srtpqq/YIence3oo/tumblr_static_a37w9t58dkgsc48cg0s4s8gc.png
+    twitter: lost_and_found
+  - name: 隙間社
+    description: 仮想出版社。KDPを中心にこれまでなかったような小説を出版していきます。 
+    img: https://pbs.twimg.com/profile_images/617200173492514817/ZOY64h5b_400x400.jpg
+    twitter: sukima_sha
+  - name: 永元千尋
+    description: ゲームシナリオライター・作家。1998年より成年向けゲーム作品の企画・シナリオを担当。2004年に角川書店ザ・スニーカー誌に短編を掲載して後は小説作品の執筆も手がける。参加した主な作品および自著は〔大悪司〕〔シェル・クレイル ～愛し合う逃避の中で〕〔サイズミック・エモーション〕〔タユタマ -Kiss on my Deity-〕〔終末のフラベルム〕〔LOVE CORE〕など。
+    img: https://pbs.twimg.com/profile_images/636604061677064192/howljjnq_400x400.jpg
+    twitter: libertyworks_cy
+  - name: 鷹野凌
+    description: 日本独立作家同盟代表。『月刊群雛』編集長。ITmedia eBook USER、INTERNET Watch、ダ・ヴィンチニュース、マガジン航などへ寄稿。
+    img: https://pbs.twimg.com/profile_images/460244013337935872/iAoJxOZq_400x400.jpeg
+    twitter: ryou_takano
+  - name: 幾谷正
+    description: 同人イベントとか商業とかwebとか電子書籍とかいろんな所で作品を発表していく不定形サークルの代表です。 『アーマードール・アライブ』Ｋｉｎｄｌｅにて発売中
+    img: https://abs.twimg.com/sticky/default_profile_images/default_profile_4_400x400.png
+    twitter: armordoll_alive
+  - name: 星見拾弐
+    description: ノベル制作やってます。GooglePlayで『キミはキメラR』30万DL突破――が、表現規制強化で消滅（PC版は元気）。『クロノウサギ』ふりーむコン優秀賞。新作『トライメライ』はKindle電子書籍！　創作と格ゲーがすきです。だいたいSF人外モノ。次回作は再びキメラ。
+    img: https://pbs.twimg.com/profile_images/646932303822786560/HGZggxAA_400x400.png
+    twitter: hoshimi12
+  - name: 天王丸景虎
+    description: 「厨二病を治す」と言って出かけていったきり帰ってこないと思ったら、悪の秘密結社に拉致されて「三行に一行はふざけないと死んでしまうが超人的な身体能力を持つ戦士」に改造されてしまった変身系ヒーロー。必殺技は「だって締め切り寸前まで寝てたんだもん」。決め台詞は「一行でお前を倒す」だが、作者の都合で大概三行以上は間を持たさられる。特殊体質を利用し、ライターとして生計を立てている。本人は仮面ライターを名乗るも、石ノ森プロに怒られるため、ひとまず仕事の原稿を終わらせてから新しい二つ名を決めようと目論んでいる。小説を書くのは趣味であり、ライフワーク。これで食っていくことは出来ないだろうが、それもまた人生の奥ゆかしいところである。
+    img: https://pbs.twimg.com/profile_images/594182952185040896/byPgJdGc_400x400.png
+    twitter: 10kgtr
+  - name: 弥生肇  [不確定]
+    description: ポジティブ物書き。電子書籍レーベル Hybrid Library主宰。仕事はビジネス書からゲームシナリオまで手広く／pixivで艦これの二次創作等。雪風多め／仕事のご依頼、お気軽にお問合せ下さい／アイコンby雨音くるみさん
+    img: https://pbs.twimg.com/profile_images/625747386657210370/TocYacBE_400x400.jpg
+    twitter: hajimeyayoi
+  - name: 根木珠（ゆきな）[不確定]
+    description: 日本出身。なんのへんてつもないただのひと。好き：冗談。興味・関心：言語学。民俗学。文化人類学。その他。読む：なんかもう、いろいろ。
+    img: https://pbs.twimg.com/profile_images/643570871659945984/HMeJXOMd_400x400.jpg
+    twitter: pcu28770
+  - name: 電書ちゃん [家でお留守番]
+    description: あたしお酒飲めないもん。つまんないの。
+    img: https://pbs.twimg.com/profile_images/645313130285785088/fNIgzNat_400x400.png
+    twitter: denshochan
+---
+
+オッス！ オラろすだ。
