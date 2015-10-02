@@ -17,6 +17,8 @@
             <h3 class="font-serif">{{ page.subtitle }}</h3>
             <hr class="intro-divider">
             <p>背景画像はあくまでもイメージです。</p>
+            <p class="lead"><a href="https://twitter.com/share" class="twitter-share-button" data-via="denshochan" data-size="large" data-hashtags="電書ちゃんねる"></a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></p>
           </div>
         </div>
       </div>
@@ -31,16 +33,17 @@
 
       <div class="row">
         <div class="post col-md-8 col-md-offset-2 m-t-lg m-b-lg">
-          <h3 class="text-center" style="font-size:1.5rem">ご挨拶</h3>
-          <p class="lead text-center" style="font-size:3rem;font-weight:bold">リード文</p>
-           <div class="post-body">
-          {{ page.content }}
+          <h3 class="text-center text-muted" style="font-size:1.5rem">intro</h3>
+          <p class="lead text-center h2 m-b color-key" style="font-size:3rem;font-weight:bold;">{{ page.lead }}</p>
+          <div class="post-body m-t-lg">
+          {{ page.content | markdownify }}
           </div>
         </div>
 
         <div class="post col-md-8 col-md-offset-2 m-t-lg m-b-lg">
-          <h3 class="text-center" style="font-size:1.5rem">ご案内</h3>
-          <p class="lead text-center" style="font-size:3rem;font-weight:bold">今んとこ場所未定！</p>
+          <h3 class="text-center text-muted" style="font-size:1.5rem">schedule</h3>
+          <p class="lead text-center h2 m-b color-key" style="font-size:3rem;font-weight:bold">今んとこ場所未定!!</p>
+          <div class="post-body m-t-lg">
             <table class="table">
               <tr>
                 <th>開始日時</th>
@@ -57,24 +60,26 @@
                 <td>{{ page.price }}</td>
               </tr>
               <tr>
-                <td rowspan="2">{{ page.description }}</td>
+                <td colspan="2">{{ page.note }}</td>
               </tr>
             </table>
+          </div>
         </div>
 
 
 
         <div class="post col-md-8 col-md-offset-2 m-t-lg m-b-lg">
-          <h3 class="text-center" style="font-size:1.5rem">参加者</h3>
-          <p class="lead text-center" style="font-size:3rem;font-weight:bold"><span class="inline-block">イカれたメンバー</span><span class="inline-block">紹介するぜ！</span></p>
+          <h3 class="text-center text-muted" style="font-size:1.5rem">participants</h3>
+          <p class="lead text-center h2 m-b color-key" style="font-size:3rem;font-weight:bold"><span class="inline-block">イカれたメンバー</span><span class="inline-block">紹介するぜ!!</span></p>
            {% include member.html %}
         </div>
 
 
         </article>
 
-        {% include js.html %}
       </div>
   	</div>
+        {% include footer.html %}
+        {% include js.html %}
   </body>
 </html>
