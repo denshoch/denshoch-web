@@ -217,11 +217,16 @@ p.copyright {
   #profile .pull-left {
     float: none !important;
     margin: 0 0 0.5rem;
+    text-align: center;
     .media-object {
-      margin: auto;
+      display: inline-block;
     }
   }
   #profile .media-heading {
     text-align: center;
+  }
+  #profile .book {
+    display: inline-block;
+    vertical-align: top;
   }
 }

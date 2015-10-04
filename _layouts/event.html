@@ -71,8 +71,14 @@
         <div class="post col-md-8 col-md-offset-2 m-t-lg m-b">
           <h3 class="text-center text-muted" style="font-size:1.5rem">participants</h3>
           <p class="lead text-center h2 m-b color-key"><span class="inline-block">イカれたメンバー</span><span class="inline-block">紹介するぜ!!</span></p>
+        {% if page.member_full %}
+         <p class="text-center text-danger">募集は終了しました。</p>
+        {% endif %}
            {% include member.html %}
         </div>
+
+
+
 
 　　　　　<div class="post col-md-8 col-md-offset-2">
         <p class="text-center lead color-key">{{ page.kicker }}</p>
