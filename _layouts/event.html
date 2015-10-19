@@ -34,7 +34,7 @@
       <div class="row">
         <div class="post col-md-8 col-md-offset-2 m-t-lg m-b-lg">
           <h3 class="text-center text-muted" style="font-size:1.5rem">intro</h3>
-          <p class="lead text-center h2 m-b color-key" style="font-size:3rem;font-weight:bold;">{{ page.lead }}</p>
+          <p class="lead text-center h2 m-b color-key">{{ page.lead }}</p>
           <div class="post-body m-t-lg">
           {{ page.content | markdownify }}
           </div>
@@ -42,7 +42,7 @@
 
         <div class="post col-md-8 col-md-offset-2 m-t-lg m-b-lg">
           <h3 class="text-center text-muted" style="font-size:1.5rem">schedule</h3>
-          <p class="lead text-center h2 m-b color-key" style="font-size:3rem;font-weight:bold">今んとこ場所未定!!</p>
+          <p class="lead text-center h2 m-b color-key">今んとこ場所未定!!</p>
           <div class="post-body m-t-lg">
             <table class="table">
               <tr>
@@ -68,18 +68,39 @@
 
 
 
-        <div class="post col-md-8 col-md-offset-2 m-t-lg m-b-lg">
+        <div class="post col-md-8 col-md-offset-2 m-t-lg m-b">
           <h3 class="text-center text-muted" style="font-size:1.5rem">participants</h3>
-          <p class="lead text-center h2 m-b color-key" style="font-size:3rem;font-weight:bold"><span class="inline-block">イカれたメンバー</span><span class="inline-block">紹介するぜ!!</span></p>
+          <p class="lead text-center h2 m-b color-key"><span class="inline-block">イカれたメンバー</span><span class="inline-block">紹介するぜ!!</span></p>
+        {% if page.member_full %}
+         <p class="text-center text-danger">募集は終了しました。</p>
+        {% endif %}
            {% include member.html %}
         </div>
 
 
-        </article>
+
+
+　　　　　<div class="post col-md-8 col-md-offset-2">
+        <p class="text-center lead color-key">{{ page.kicker }}</p>
+　　　　 </div>
+　　　　　
 
       </div>
   	</div>
-        {% include footer.html %}
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <p class="copyright text-muted small">Copyright &copy; {{ site.title }} All Rights Reserved</p>
+            </div>
+            <div class="col-md-4">
+                
+            </div>
+        </div>
+    </div>
+</footer>
+
         {% include js.html %}
   </body>
 </html>

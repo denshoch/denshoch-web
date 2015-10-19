@@ -187,6 +187,12 @@ p.copyright {
     margin: 15px 0 0;
 }
 
+.lead {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
 .name-container {
   border-bottom: 2px solid #888;
 }
@@ -198,4 +204,29 @@ p.copyright {
 
 .color-key {
   color: $key-color;
+}
+
+  #profile .pull-left {
+    margin-right: 20px;
+  }
+
+@media (max-width: 768px) {
+  .lead {
+    font-size: 2rem;
+  }
+  #profile .pull-left {
+    float: none !important;
+    margin: 0 0 0.5rem;
+    text-align: center;
+    .media-object {
+      display: inline-block;
+    }
+  }
+  #profile .media-heading {
+    text-align: center;
+  }
+  #profile .book {
+    display: inline-block;
+    vertical-align: top;
+  }
 }
