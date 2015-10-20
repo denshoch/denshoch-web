@@ -1,0 +1,57 @@
+---
+layout: post
+category: posts
+img: yukkuri.png
+title: 俺たちの遊園地
+description: |
+---
+
+<p class="text-center m-b"><img style="width: 300px;max-width: 100%;" src="/img/yukkuri.png" alt="ゆっくりしいってね" class="img-rounded" /></p>
+
+よう！　頭の中がおめでたいクソッタレども。ろすだ。このテキーラはサービスだから、まず飲んで落ち着いて欲しい。
+
+ちょうど一ヶ月前、電書ちゃんとお前らへのプレゼントを用意出来なかった俺はリベンジを宣言したんだったな。約束どおり<b class="font-sans">本当の電書ちゃんねる</b>をお見せしようじゃないか。
+
+俺の作ったとびっきりの遊園地にご招待するぜ。
+
+ただし、この遊園地はぶっちゃけハリボテだ。アルファ版ってやつだ。今回間に合わなかった機能もいっぱいある。リソースも不安なので制限をつけることにした。
+
+- ユーザー登録できるのは**先着50名**のみ（ただしユーザー登録しなくても閲覧はできる）
+- ユーザーが30名を越えるまでこのサービスのURLをSNSでシェアするのは禁止（名称のみは可）
+
+さらに入場資格もいる。
+
+- インディーズ作家の作品を読みたいと考えている人
+- Twitter、Facebook、Google+のいずれかのアカウントを持っている人
+
+以上の条件に該当する人のみ参加して欲しい。読者寄りのサービスを作るって、俺は言ったはずだ。誰が一番熱い読者なのか俺にアピールしてくれよ。セルフパブリッシングを手段から文化へと育ててゆけるのは、間違いなくそいつらだ。
+
+それじゃあ、遊園地で待ってるぜ。入り口は下に用意しておいた。
+
+<p><br /></p>
+
+<p class="m-t-md text-right">二〇一五年十月二〇日　ろす</p>
+
+<div class="media font-sans m-t-lg">
+  <div style="margin-right: 10px;" class="pull-left"><img style="width: 64px;" src="/img/denshochan_20101213_face.png" alt="電書ちゃん" class="media-object img-circle"></div>
+  <div class="media-body">
+    <div class="card card-block">
+    大丈夫でしょうね？ また騙されるんじゃないの？
+    </div>
+  </div>
+</div>
+<div class="media font-sans">
+  <div style="margin-right: 10px;" class="pull-left"><img style="width: 64px;" src="http://static.tumblr.com/b8da4375d735432e52414cce134f3094/9srtpqq/YIence3oo/tumblr_static_a37w9t58dkgsc48cg0s4s8gc.png" alt="ろす" class="media-object img-circle"></div>
+  <div class="media-body">
+    <div class="card card-block">
+    下のボタンをクリックするんだ。<br />
+    さあ！ 今度こそ新しい時代の扉を僕たちの手で開こう。
+    </div>
+  </div>
+</div>
+
+<p class="text-center font-sans m-t-lg">
+  <a class="btn btn-lg btn-success" href="http://pokkyun.me">Here We Go!!</a>
+</p>
+
+
