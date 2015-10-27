@@ -5,9 +5,13 @@
         {% for member in page.member  %}
         <li class="media card card-block m-b-md">
           <div class="pull-left">
-            <a href="http://twitter.com/{{ member.twitter }}" title="Twitter">
+            {% unless member.twitter  %}
               <img style="width: 64px;" src="{{member.img}}" alt="" class="media-object img-circle m-b m-r">
-            </a>
+            {% else %}
+              <a href="http://twitter.com/{{ member.twitter }}" title="Twitter">
+                <img style="width: 64px;" src="{{member.img}}" alt="" class="media-object img-circle m-b m-r">
+              </a>
+            {% endunless %}
             {% if member.book %}
             <hr class="devider hidden-sm-down m-r" />
             <a href="{{member.book.url}}">
@@ -29,7 +33,9 @@
 
 
               <ul class="list-inline">
-                <li><a href="http://twitter.com/{{ member.twitter }}" title="Twitter"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li> 
+                {% if member.twitter  %}
+                  <li><a href="http://twitter.com/{{ member.twitter }}" title="Twitter"><span class="fa-stack"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x fa-inverse"></i></span></a></li>
+                {% endif %}
               </ul>
 
               
