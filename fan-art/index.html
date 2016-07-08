@@ -1,0 +1,12 @@
+---
+title: みんなが描いてくれた電書ちゃん
+layout: gallery
+---
+<div class="container">
+  {% for image in site.data.gallery.images %}
+  <div class="gallery-item-wrapper">
+    <div class="gallery-item" style="background-image:url(/img/fan-art/{{ image.file }})">
+    </div>
+  </div>
+  {% endfor %}
+</div>
