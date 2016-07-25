@@ -1,6 +1,18 @@
 ---
 image_dir: img/fan-art
 images:
+  - file: CoMaYQyUIAAVbrW.jpg
+    desc: 姫カット
+    date: 2016-07-25
+    author:
+      name: 根木珠
+      twitter: yukinayagoshi
+  - file: CoMaH67UEAEq-RA.jpg
+    desc: スケッチ
+    date: 2016-07-25
+    author:
+      name: 根木珠
+      twitter: yukinayagoshi
   - file: CnxqPZfUkAAXDck.jpg
     desc: 本物の電書さん
     date: 2016-07-20
