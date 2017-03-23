@@ -20,6 +20,7 @@ permalink: pretty
 #   3rd Party Settings    #
 # ----------------------- #
 
+fb_app_id: 917304118299061
 social:
   - title: twitter
     url: https://twitter.com/denshochan

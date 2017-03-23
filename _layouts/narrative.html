@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+    <!--
+    Theme Narrative Huge(Den-Den Landing Page)
+    version: 1.1.0
+    by @lost_and_found from Densho Channel
+    mail: <info@denshochan.com>
+    Copyright (c) 2014 Densho Channel <http://denshochan.com/>
+    license: MIT
+    -->
+    <meta charset="utf-8"> 
+    <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" /><![endif]-->
+
+    <title>{% if page.title %}{{ page.title }} {% if page.subtitle %}{{ page.subtitle }} {% endif %}| {{ site.title }} {% else %}{{ site.title }}{% endif %}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    {% if page.description %}<meta name="description" content="{{page.description}}">{% endif %}
+
+    {% if site.fb_app_id %}<meta property="fb:app_id" content="{{site.fb_app_id}}">{% endif %}
+
+    <!-- OGP -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} {% if page.subtitle %}{{ page.subtitle }} {% endif %}| {{ site.title }} {% else %}{{ site.title }}{% endif %}">
+    <meta property="og:type" content="website">
+    {% if page.img %}<meta property="og:image" content="{{ site.url }}/img/{{page.img}}">{% endif %}
+    <meta property="og:site_name" content="{{ site.title }}"> 
+    {% if page.description %}<meta property="og:description" content="{{page.description}}">{% endif %}
+    <meta property="og:url" content="{{site.url}}{{page.url}}">
+
+    {% if page.img %}<meta name="twitter:card" content="summary_large_image">{% endif %}
+    <meta name="twitter:site" content="@denshochan">
+    <meta name="twitter:creator" content="@denshochan"> 
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" media="screen" href="//denshoch.github.io/LandingPages/narrative/1.1/css/styles.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="canonical" href="{{page.url}}">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script> 
+
+    <style>
+      a {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      a:hover,
+      a:focus {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .bubble {
+      background: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .bubble:after {
+      border-color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %} transparent;
+      }
+      #header:before {
+      {% if page.img %}background-image: url(/img/{{page.img}});{% endif %}
+      /*
+      {block:IfHeaderImageEffectBlur}
+      -webkit-filter: blur(2px);
+      filter: blur(2px);
+      {/block:IfHeaderImageEffectBlur}
+      */
+      }
+      #header #header-inner {
+      /*
+      {block:IfHeaderImageEffectDarken}
+      background-color: rgba(0,0,0,0.2);
+      {/block:IfHeaderImageEffectDarken}
+      */
+      }
+      #catchphrase-container-inner {
+      /*
+      {block:IfHeaderTextEffectShadow}
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.4), -2px -2px 10px rgba(0,0,0,0.4), 2px -2px 10px rgba(0,0,0,0.4), -2px 2px 10px rgba(0,0,0,0.4);
+      {/block:IfHeaderTextEffectShadow}
+      */
+      }
+      #header-bottom .creators-list > li {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .section-lead {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .section-inverse {
+      background: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .feature-image-placeholder {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .character-desc {
+      border-color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .review-container .review-title {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .review-container .reviewer-icon-placeholder {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .review-container .reviewer-name {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .review-container .reviewer-name a:hover,
+      .review-container .reviewer-name a:active {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      .role {
+      background-color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      #bio a .fa-stack:hover,
+      #bio a .fa-stack:focus {
+      color: {% if page.primary_color %}{{page.primary_color}}{% else %}#428bca{% endif %};
+      }
+      /*
+      .separator-for-{select:ColumnCount Characters}:before,
+      .separator-for-{select:ColumnCount Characters}:after {
+        content: " ";
+        display: table;
+      }
+      .works-separator-for-{select:ColumnCount RelatedWorks}:after {
+        clear: both;
+      }
+      .works-separator-for-{select:ColumnCount RelatedWorks}:before,
+      .works-separator-for-{select:ColumnCount RelatedWorks}:after {
+        content: " ";
+        display: table;
+      }
+      .works-separator-for-{select:ColumnCount RelatedWorks}:after {
+        clear: both;
+      }
+      */
+    </style>
+
+  </head>
+  <body>
+
+    <script>
+      (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      {% if site.fb_app_id %}
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&appId={{site.fb_app_id}}&version=v2.0";
+      {% else %}
+      js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.0";
+      {% endif %}
+      fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+<header id="header">
+  <h1 class="sr-only">{{page.title}}</h1>
+  <div id="header-inner">
+    <div class="container">
+      <div class="rows">
+
+        <div id="catchphrase-container" class="col-sm-7">
+
+          <div id="catchphrase-container-inner">
+            <p class="catchphrase">
+              {{page.catchphrase}}
+            </p>
+            <p class="subphrase hidden-xs">
+              {{page.catchphrase_sub}}
+            </p>
+            <hr>
+            <div class="hidden-xs">
+
+              {% if page.collection_title %}
+              <p class="book-collection-title"><span class="book-collection-title-label">{{page.collection_title}}</span>
+              </p>
+              {% endif %}
+
+              <p class="book-title">
+                {{page.title}}
+              </p>
+
+              {% if page.subtitle %}
+              <p class="book-subtitle">
+                {{page.subtitle}}
+              </p>
+              {% endif %}
+
+              <ul class="list-inline creators-list">
+                {% for creator in page.creators %}
+                <li>{{creator.name}}</li>
+                {% endfor %}
+              </ul>
+            </div>
+            <div class="btn-container hidden-xs">
+              <ul class="list-inline">
+                <li>
+                  <p><a href="#preview" class="btn btn-default btn-lg">試し読みする</a>
+                  </p>
+                </li>
+                <li>
+                  <p><a href="#acquisition" class="btn btn-default btn-lg">この本を入手</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div id="header-bottom">
+  <div class="rows">
+    <div class="container">
+
+
+      <div id="cover-image-container" class="col-sm-push-7 col-sm-5">
+
+        <img id="cover-image" src="/img/{{page.img}}" alt="" class="img-thumbnail">
+        <div class="visible-xs">
+
+              {% if page.collection_title %}
+              <p class="book-collection-title"><span class="book-collection-title-label">{{page.collection_title}}</span>
+              </p>
+              {% endif %}
+
+              <p class="book-title">
+                {{page.title}}
+              </p>
+
+              {% if page.subtitle %}
+              <p class="book-subtitle">
+                {{page.subtitle}}
+              </p>
+              {% endif %}
+
+          <hr class="context-break">
+          <ul class="list-inline creators-list">
+            {% for creator in page.creators %}
+            <li>{{creator.name}}</li>
+            {% endfor %}
+          </ul>
+          <div class="btn-container">
+            <ul class="list-inline">
+
+              <li>
+                <p><a href="#preview" class="btn btn-success btn-lg">試し読みする</a>
+                </p>
+              </li>
+              <li>
+                <p><a href="#acquisition" class="btn btn-primary btn-lg">この本を入手</a>
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="social" class="col-sm-pull-5 col-sm-7">
+        <ul class="list-inline text-center social-bottuns">
+          <li id="tweet-btn"><a href="https://twitter.com/share" data-url="{{page.url}}" class="twitter-share-button">Tweet</a>
+            <script>
+              ! function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (!d.getElementById(id)) {
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "//platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }
+              }(document, "script", "twitter-wjs");
+
+            </script>
+          </li>
+          <li id="fb-like-btn">
+            <div data-url="{{page.url}}" data-send="true" data-layout="button_count" data-width="450" data-show-faces="false" data-share="false" class="fb-like"></div>
+          </li>
+          <li id="hb-btn">
+            <a href="http://b.hatena.ne.jp/entry/" data-hatena-bookmark-layout="standard-balloon" title="このエントリーをはてなブックマークに追加" class="hatena-bookmark-button"><img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;">
+            </a>
+            <script type="text/javascript" src="http://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+          </li>
+          <li id="g-plusone-btn">
+            <div data-size="medium" class="g-plusone"></div>
+            <script type="text/javascript">
+              window.___gcfg = {
+                lang: 'ja'
+              };
+              (function() {
+                var po = document.createElement('script');
+                po.type = 'text/javascript';
+                po.async = true;
+                po.src = 'https://apis.google.com/js/plusone.js';
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(po, s);
+              })();
+
+            </script>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+    {{ page.content }}
+  </body>
+  </html>
