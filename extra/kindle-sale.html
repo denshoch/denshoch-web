@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+  <head>
+  	<title>Kindleストアセール情報 | 電書ちゃんねる</title>
+  	<link rel="stylesheet" href="//cask.scotch.io/bootstrap-4.0-flex.css">
+  	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  	<style>
+  	  .card-block {
+  	  	font-size: .8rem;
+  	  	line-height: 1.2;
+  	  	padding: .4rem;
+  	  }
+  	  a .card-block {
+  	  	color: #444;
+  	  }
+  	</style>
+  </head>
+	<body>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <script src="//cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <script src="//unpkg.com/vue/dist/vue.js"></script>
+    <script src="//unpkg.com/axios/dist/axios.min.js"></script>
+
+    <header class="m-y">
+    	<div class="container">
+    		<h1 class="h2">でんとく</h1>
+    		<p>Kindleストアで現在開催中のオトクなセール情報をまとめています。</p>
+    	</div>
+    </header>
+
+    <div class="m-t"></div>
+
+<div id="app" class="container" style="display:none">
+	<div class="row">
+	  <a class="card col-sm-6 col-md-3" target="_blank" :href="event.url" v-for="event in events">
+
+  	  	<img class="card-img-top" :src="event.image" :alt="event.name" style="max-width:100%">
+
+		  <div class="card-block">
+		  	<span style="color:#b12704">{{event.name}}</span>
+		  </div>
+	  </a>
+	</div>
+</div>
+ 
+<script>
+
+    axios.get('http://data.denshochan.com/api/v1/kindle_sales_events')
+      .then(function (response) {
+        initVue(response.data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+ 
+    function initVue(info){
+        new Vue({
+                el: '#app',
+                data: {
+                  events: info
+                },
+                mounted: function(){
+                  document.getElementById("app").style.display = "";
+                }
+            })
+    }
+    //http://data.denshochan.com/api/v1/kindle_sales_events
+</script>
+    <footer>
+    	<div class="container">
+    	</div>
+    </footer>
+	</body>
+</html>
