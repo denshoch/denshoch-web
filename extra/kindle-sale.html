@@ -34,14 +34,19 @@
 
 <div id="app" class="container" style="display:none">
 	<div class="row">
-	  <a class="card col-sm-6 col-md-3" target="_blank" :href="event.url" v-for="event in events">
-
+	  <div class="card col-sm-6 col-md-3" v-for="event in events">
+      <a :href="event.url" target="_blank">
   	  	<img class="card-img-top" :src="event.image" :alt="event.name" style="max-width:100%">
-
+      </a>
 		  <div class="card-block">
-		  	<span style="color:#b12704">{{event.name}}</span>
+        <a :href="event.url" target="_blank">
+		  	  <p><span style="color:#b12704">{{event.name}}</span></p>
+        </a>
+          <div>
+            <a href="https://twitter.com/share" class="twitter-share-button" :data-url="event.url" :data-text="event.text" data-lang="ja"></a>
+          </div>
 		  </div>
-	  </a>
+	  </div>
 	</div>
 </div>
  
@@ -59,7 +64,16 @@
         new Vue({
                 el: '#app',
                 data: {
-                  events: info
+                  rawEvents: info
+                },
+                computed: {
+                  events: function(){
+                    return this.rawEvents.map(function(event){
+                      event.text = "Kindleストア：" + event.name;
+                      event.url = "https://www.amazon.co.jp/b/?_encoding=UTF8&camp=1207&creative=8415&linkCode=shr&tag=denshochan-22&node=" + event.browse_node;
+                      return event;
+                    });
+                  }
                 },
                 mounted: function(){
                   document.getElementById("app").style.display = "";
@@ -67,6 +81,8 @@
             })
     }
     //http://data.denshochan.com/api/v1/kindle_sales_events
+</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
 </script>
     <footer>
     	<div class="container">
