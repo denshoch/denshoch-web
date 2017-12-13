@@ -67,7 +67,7 @@ ICOに参加するにはBANKERAが発行する通貨BNKを購入することに�
 
 BNKを購入するには[Spectrocoin](https://spectrocoin.com/en/signup.html?referralId=573647074)という販売所にアカウントを開設します。そこのウォレットにビットコインなどを送金してBNKに両替することでICOに参加したことになります。あとは放置しているだけでEthereumのウォレットに配当金が送られてきます。
 
-<a href="https://spectrocoin.com/en/signup.html?referralId=573647074" target="_blank">![spectrocoin](http://media.spectrocoin.com/banners/468x60.gif)</a>
+<a href="https://spectrocoin.com/en/signup.html?referralId=573647074" target="_blank">![spectrocoin](https://media.spectrocoin.com/banners/468x60.gif)</a>
 
 **とはいえ投資／投機は自己責任です。最終的に判断を下し、結果を受け止めるのはあなた以外にありません。**
 
