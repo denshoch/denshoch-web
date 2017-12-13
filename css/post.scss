@@ -1,6 +1,5 @@
-.post{
+$spacer: 1rem;
 
-}
 .post-header {
   text-align: left;
   margin-bottom: 3rem;
@@ -22,6 +21,11 @@
   font-family: "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
 }
 
-.post-body p.text-right {
-  text-align: right;
+.post-body {
+  h1, h2, h3, h4, h5, h6, ul, ol {
+    margin-top: $spacer;
+    margin-bottom: $spacer;
+  }
 }
+
+.text-right { text-align: right;}
