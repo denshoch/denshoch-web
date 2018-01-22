@@ -33,7 +33,7 @@ slug: airdrop
   - ユーザー登録
 - **[Bit Eclipse](https://docs.google.com/forms/d/e/1FAIpQLSeZN0M0sqzPi9wgwLS8PKTJTBxXg1mrdnXQK9fqFuWRA-0R3Q/viewform)**
   - フォーム入力（メールアドレス、Ethereumウォレットアドレス）
-- **[SHND]()**
+- **[SHND](https://docs.google.com/forms/d/e/1FAIpQLScgVwCxLfcF1CIwnp8cycpnTB44UFXaUZGXYFeDamv6NEM0BQ/viewform)**
   - ネタで有名な筋肉コイン
   - フォーム入力（メールアドレス、SHNDウォレットアドレスなどいろいろ必要）
 
