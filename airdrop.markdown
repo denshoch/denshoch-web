@@ -10,6 +10,8 @@ slug: airdrop
 
 [MyEtherWallet](https://www.myetherwallet.com/)でEthereumウォレットを作っておくこと。
 
+**Ethereumウォレットのアドレスだけではなく、プライベートキーの入力を求めるAirDropがありますが、詐欺ですので見かけても絶対に入力しないでください。**
+
 - **[IOSToken](https://t.iost.io/?c=qTzDA5FV)** 
   - Ethereumウォレットアドレスの登録
   - 表示されたリンクのツイート
@@ -58,3 +60,5 @@ slug: airdrop
   - アカウント登録で50枚
 - **[ZONT](https://zonto.world/z70885)**
   - アカウント登録で600枚くらい
+- **[ArtByte](https://docs.google.com/forms/d/e/1FAIpQLSc2IUqms06bQHEiX2G1OK2MOiyCB6yzszL6Ty-Ig56djuxOPw/viewform?usp=sf_link)**
+  - フォームにメールアドレスとEthereumウォレットアドレスを登録
