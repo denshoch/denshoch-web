@@ -24,5 +24,10 @@ slug: airdrop
   - Telegramに参加してbotと会話。Ethereumウォレットアドレス、メールアドレス、Twitterアカウントを答える
 - **[Sphere](https://sphere.social/?ref_code=qbpxg93d50ee)**
   - Sign Upすると50枚付与
+- **[CoinStarter](https://coinstarter.com?ref=qdjxd3nq7)**
+  - ICO等のプラットフォーム
+  - Sign Upすると10枚付与
+  - 受取にはEthereumウォレットアドレスの登録が必要
+  - その後のアクションでも付与機会あり
 - **[Viuly](https://viuly.io/r/K3861475a629f8a0)**
   - ユーザー登録
