@@ -36,4 +36,7 @@ slug: airdrop
 - **[SHND](https://docs.google.com/forms/d/e/1FAIpQLScgVwCxLfcF1CIwnp8cycpnTB44UFXaUZGXYFeDamv6NEM0BQ/viewform)**
   - ネタで有名な筋肉コイン
   - フォーム入力（メールアドレス、SHNDウォレットアドレスなどいろいろ必要）
+- **[LiNO](https://referral.lino.network/?code=8Mbgr4nz)
+  - Ethereumウォレットアドレスの登録
+  - Telegramに参加してbotにコードをツイート
 
