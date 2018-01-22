@@ -17,7 +17,7 @@ slug: airdrop
 - **[AELF](https://candy.aelf.io/account/register?invitationCode=05026Vc22HcR)**
   - Sign UpしてTwitterをフォローなどのAssignmentをこなす
   - Sign Inした後、プロフィールでEthereumウォレットアドレスを登録するのを忘れずに
-- **[Wizzle](https://wizzle.referralrock.com/l/HIROSHITAKAS/ )
+- **[Wizzle](https://wizzle.referralrock.com/l/HIROSHITAKAS/)**
   - メールアドレスの登録
   - Ethereumウォレットアドレスの登録
 - **[EBCoin](https://t.me/ebcoin_bot?start=D1ZVZY)**
@@ -31,3 +31,6 @@ slug: airdrop
   - その後のアクションでも付与機会あり
 - **[Viuly](https://viuly.io/r/K3861475a629f8a0)**
   - ユーザー登録
+- **[Bit Eclipse](https://docs.google.com/forms/d/e/1FAIpQLSeZN0M0sqzPi9wgwLS8PKTJTBxXg1mrdnXQK9fqFuWRA-0R3Q/viewform)**
+  - フォーム入力（メールアドレス、Ethereumウォレットアドレス）
+
