@@ -8,7 +8,7 @@ slug: airdrop
 
 ### AirDrop情報
 
-[MyEtherWallet](https://www.myetherwallet.com/)でEthereumEthereumウォレットを作っておくこと。
+[MyEtherWallet](https://www.myetherwallet.com/)でEthereumウォレットを作っておくこと。
 
 - **[IOSToken](https://t.iost.io/?c=qTzDA5FV)** 
   - Ethereumウォレットアドレスの登録
@@ -33,4 +33,7 @@ slug: airdrop
   - ユーザー登録
 - **[Bit Eclipse](https://docs.google.com/forms/d/e/1FAIpQLSeZN0M0sqzPi9wgwLS8PKTJTBxXg1mrdnXQK9fqFuWRA-0R3Q/viewform)**
   - フォーム入力（メールアドレス、Ethereumウォレットアドレス）
+- **[SHND]()**
+  - ネタで有名な筋肉コイン
+  - フォーム入力（メールアドレス、SHNDウォレットアドレスなどいろいろ必要）
 
