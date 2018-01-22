@@ -36,6 +36,26 @@ slug: cypto
 
 <a href="https://coincheck.com/?c=xZ8PHrVP_5g" target="_blank"><img src="https://coincheck.com/images/affiliates/03_cc_banner_320x100.png" alt="ビットコイン取引高日本一の仮想通貨取引所 coincheck bitcoin"></a>
 
+#### Zaif
+
+**JPYでアルトを買うならおすすめ**
+
+- 取引所で扱うアルトコインが豊富
+- 現物取引手数料 -0.01%
+- 毎月コイン積立などユニークなサービスも
+- サーバーが弱く落ちやすいのでFXには不向き
+
+<a href="https://zaif.jp?ac=r5s5gjl9vb" rel="nofollow"><img src="https://d2p8taqyjofgrq.cloudfront.net/images/affiliate/banner/zaif_D_234x60.png?ac=r5s5gjl9vb" /></a>
+
+### Binance
+
+とはいえ海外の大手取引所に比べ、国内で購入できるコインの種類はまだまだ少なく手数料も高いと言わざるをえません。
+
+現在最大の取引所は香港のBinanceです。日本語には対応していませんがUIが洗練されていて使いやすく、手数料も安いです。多くの仮想通貨にとってBinanceに上場することは大きな目標になっています。多くの人はまず日本の取引所で通貨を購入してから、Binanceのウォレットに送って売買することになります。本格的に海外の取引所を使いこなせるようになると、日本の取引所は最初に日本円を仮想通貨に替える場所以上の意味を持たなくなります。
+
+[Binanceの登録はこちらから](https://www.binance.com/?ref=15573632)。
+
+
 ### コインの購入は販売所ではなく取引所で
 
 **販売所で割高なコインを購入するメリットはほぼありません**
