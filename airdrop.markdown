@@ -41,4 +41,18 @@ slug: airdrop
   - Telegramに参加してbotにコードをツイート
 - **[CCRB](https://ccrb.io/affiliate/359907)**
   - ユーザー登録
-
+- **[Altair VR](https://wn.nr/GTFNc5)
+  - ソーシャルログイン
+  - Twitterフォロー、Facebookページ訪問、インスタ訪問など（n秒以上ページを開く）
+  - 完了後にEthereumウォレットアドレス登録
+- **[Artis Turba](https://artisturba.com?ref=4ea41ZZH)**
+  - ICO
+  - ユーザー登録→メール確認→Ethereumウォレットアドレス登録
+- **[Charter](http://airdrop.charter.foundation/en/invitations/?from=aeb9903f83)**
+  - Ethereumウォレットアドレス登録
+  - Telegramに参加してexclusive codeを投稿
+- **[Sola](https://sola.ai/lost_and_found)
+  - アカウント登録（ブラウザからならWebAppがインストール不要で楽）
+- **[WCX](https://ico.wcex.co/?ref=teYNoUN)
+  - ICO
+  - アカウント登録で50枚
