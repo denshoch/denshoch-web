@@ -67,3 +67,7 @@ slug: airdrop
   - この[ツイート](https://www.google.com/url?q=https://twitter.com/SHIELDcurrency/status/954451318604795904&sa=D&ust=1516683293020000&usg=AFQjCNGbpk8chqYYvQe7LZNFRri2ew6Iog)をfav+RT
   - XSHのウォレットアドレスを登録（Web Walletは[ここ](https://wallet.shieldcurrency.com/Dashboard)で作れる）
   - Twitterのユーザー名を登録
+- **[DTA Token](http://refer.data.eco/invite/1yHQA7H6)**
+  - [@Blockchain_Data](https://twitter.com/Blockchain_Data)をフォロー
+  - Ethereumウォレットアドレス登録
+  - Telegramに参加してcodeを投稿
