@@ -62,3 +62,8 @@ slug: airdrop
   - アカウント登録で600枚くらい
 - **[ArtByte](https://docs.google.com/forms/d/e/1FAIpQLSc2IUqms06bQHEiX2G1OK2MOiyCB6yzszL6Ty-Ig56djuxOPw/viewform?usp=sf_link)**
   - フォームにメールアドレスとEthereumウォレットアドレスを登録
+- **[XSH](https://t.co/atz9ngh02h)
+  - 有望銘柄SHIELDのリリース遅延お詫びAirDrop
+  - この[ツイート](https://www.google.com/url?q=https://twitter.com/SHIELDcurrency/status/954451318604795904&sa=D&ust=1516683293020000&usg=AFQjCNGbpk8chqYYvQe7LZNFRri2ew6Iog)をfav+RT
+  - XSHのウォレットアドレスを登録（Web Walletは[ここ](https://wallet.shieldcurrency.com/Dashboard)で作れる）
+  - Twitterのユーザー名を登録
