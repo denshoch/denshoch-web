@@ -1,6 +1,6 @@
 ---
 layout: bulma
-title: AirDrop情報まとめ
+title: AirDrop & Faucet情報まとめ
 description: 
 img: bitcoin.png
 slug: airdrop
@@ -76,3 +76,9 @@ slug: airdrop
   - Google フォームにユーザー名、メールアドレス、Telegramユーザー名を登録
   - Telegramに参加
 
+### Fauset情報
+
+- [SpectroCoin.com Faucet](http://faucet.spectrocoin.com/index.php?r=itshustletime@gmail.com)
+  - 注目のICO バンクエラ関連の取引所が運営
+  - 6時間ごとに claim するとランダムで少額のBTCが貰える
+  - [Spectrocoin](https://spectrocoin.com/ja/signup.html?referralId=573647074)のアカウントを入力すると報酬2倍なのでアカウント作っておくとお得。バンクエラトークン BNK はここでしか買えない。
