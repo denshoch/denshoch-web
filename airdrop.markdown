@@ -12,7 +12,7 @@ slug: airdrop
 
 **Ethereumウォレットのアドレスだけではなく、プライベートキーの入力を求めるAirDropがありますが、詐欺ですので見かけても絶対に入力しないでください。**
 
-- **[IOSToken](https://t.iost.io/?c=qTzDA5FV)** 
+- <del>**[IOSToken](https://t.iost.io/?c=qTzDA5FV)** </del>
   - Ethereumウォレットアドレスの登録
   - 表示されたリンクのツイート
   - [@IOSToken](https://twitter.com/iostoken)をフォロー
@@ -79,7 +79,7 @@ slug: airdrop
   - アカウント作成
   - Telegramに参加
   - botにメッセージ` !!airdrop CGMWalletアドレス
-- **[GSC](https://www.gsc.social/airdrop/?code=JpTV4PqUhgZn)**
+- <del>**[GSC](https://www.gsc.social/airdrop/?code=JpTV4PqUhgZn)**</del>
   - Ethereumウォレットアドレス登録
   - Telegramに参加してcodeを投稿
 - **[ICT](http://www.ictchain.space/f/XfHUuu?x_field_1=3475)**
