@@ -75,16 +75,23 @@ slug: airdrop
   - ストックフォトの報酬に使う通貨
   - Google フォームにユーザー名、メールアドレス、Telegramユーザー名を登録
   - Telegramに参加
-- **[clickgem](https://www.clickgem.com)
+- **[clickgem](https://www.clickgem.com)**
   - アカウント作成
   - Telegramに参加
   - botにメッセージ` !!airdrop CGMWalletアドレス
-- **[GSC](https://www.gsc.social/airdrop/?code=JpTV4PqUhgZn)
+- **[GSC](https://www.gsc.social/airdrop/?code=JpTV4PqUhgZn)**
   - Ethereumウォレットアドレス登録
   - Telegramに参加してcodeを投稿
-- **[ICT](http://www.ictchain.space/f/XfHUuu?x_field_1=3475)
+- **[ICT](http://www.ictchain.space/f/XfHUuu?x_field_1=3475)**
   - Ethereumウォレットアドレス登録
   - Telegramに参加してcodeを投稿
+- **[Setcoin](http://wshe.es/BnkCNBVd)**
+  - Ethereumウォレットアドレス登録
+  - メール登録
+- **[PIXIECOIN](http://pixie.tokenairdrop.info/en/invitations/?from=f36c86e80c)**
+  - Ethereumウォレットアドレス登録
+  - Telegramに参加してcodeを投稿
+
 
 ### Fauset情報
 
