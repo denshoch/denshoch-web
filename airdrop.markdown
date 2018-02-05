@@ -91,6 +91,8 @@ slug: airdrop
 - **[PIXIECOIN](http://pixie.tokenairdrop.info/en/invitations/?from=f36c86e80c)**
   - Ethereumウォレットアドレス登録
   - Telegramに参加してcodeを投稿
+- **[Synapse AI](https://tokensale.synapse.ai/r/4665)**
+  - アカウント作成で58SYN
 
 
 ### Fauset情報
